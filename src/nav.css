@@ -1,0 +1,13 @@
+.links{
+    margin-left: 50rem;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.nav1, .nav2{
+    margin-right: .25in;
+    box-shadow: 10px 12px 18px -6px rgba(0,0,0,0.5) ;
+}
+.navbar{
+    background-color: lightsalmon;
+}

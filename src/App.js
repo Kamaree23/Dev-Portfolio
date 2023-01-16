@@ -1,25 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import './App.css'
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='grid'>
+      <div className='num1'>
+        <h5>
+          <pre> Travel API </pre>
+        </h5>
+        <h6>
+          <pre> Here is a Travel Application that
+             I Engineered using CRUD and a REST API.</pre>
+        </h6>
+      </div>
+      <div className='num2'>
+        <h5>
+          <pre> Pokemon Game </pre>
+        </h5>
+        <h6>
+          <pre> Using Django I had a little fun creating a Pokemon game that lets you View catch and battle Pokemon </pre>
+        </h6>
+      </div>
+      <div className='num3'>
+        <h5>
+          <pre> ROI Calculator </pre>
+        </h5>
+        <h6>
+          <pre> Calculate Your ROI here! </pre>
+        </h6>
+      </div>
     </div>
-  );
+  )
 }
-
-export default App;
